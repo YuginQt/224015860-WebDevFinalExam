@@ -1,23 +1,36 @@
-.header{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
+body{
+    font-family: 'Courier New', Courier, monospace;
 
 }
+
+.header{
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
 .navbar{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    gap: 2em;
+    justify-content: space-around;
+    color: lightpink;
+    padding: 15px;
+}
+
+.items{
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    color: white;
 }
 
 .main{
-    display: flex;
-    align-content: center;
-    justify-content: center;
+    padding: 20px;
 }
 
 .footer{
-    align-content: baseline;
-    margin-bottom: auto
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
