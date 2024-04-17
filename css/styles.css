@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 2em;
+}
+
+.main{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer{
+    align-content: baseline;
+    margin-bottom: auto
+}
